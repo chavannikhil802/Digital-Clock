@@ -1,15 +1,10 @@
 body {
     background-color: rgb(230, 255, 255);
 }
-.col-2 {
-    max-width: 150px;
-}
-.col-4 {
-    padding: 15px;
-    text-align: center;
-    margin: 15px;
-    width: 275px;
-    height: 275px;
+.col {
+    margin: 10px;
+    text-align:center;
+    font-size: 120px;
 }
 .container {
     position: absolute;
@@ -17,6 +12,9 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
 }
 .time, .labels {
     padding:10px;
@@ -24,9 +22,6 @@ body {
 .labels {
     font-size: 30px;
     border-top: 1px solid;
-}
-.col {
-    font-size: 120px;
 }
 #hour-tile {
     background-color:rgb(80, 227, 253);
