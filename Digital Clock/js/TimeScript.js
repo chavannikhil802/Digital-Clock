@@ -6,13 +6,13 @@ function showTime() {
     var mm = date.getMinutes();
     // ss must return 0 to 59
     var ss = date.getSeconds();
-
-    var session = "AM"
-
+    // use to set AM/PM
+    var session = "AM";
+    // sets 00 to 12AM
     if(hh == 0) {
         hh = 12;
     }
-
+    // to display time in 12 hour format
     if(hh > 12) {
         hh = hh - 12;
         session="PM";
@@ -24,22 +24,19 @@ function showTime() {
     mm = (mm < 10) ? "0" + mm : mm;
     ss = (ss < 10) ? "0" + ss : ss;
 
-    var time = hh+":"+mm+":"+ss+" "+session;
+    // code to display hour
     document.getElementById("hour").innerText = hh;
     document.getElementById("hour").textContent = hh;
-
+    // code to display minutes
     document.getElementById("minute").textContent = mm;
     document.getElementById("minute").textContent = mm;
-
+    // code to display seconds
     document.getElementById("seconds").textContent = ss;
     document.getElementById("seconds").textContent = ss;
-
+    // code to display AM/PM
     document.getElementById("ampm").textContent = session;
     document.getElementById("ampm").textContent = session;
 
     // HERE, setTimeout() IS USED TO CALL THE showTime() AFTER EVERY ONE SECOND
     setTimeout(showTime, 1000);
 }
-
-// HERE, setInterval() IS USED TO CALL THE showTime() AFTER EVERY ONE SECOND
-// setInterval(showTime, 1000);
