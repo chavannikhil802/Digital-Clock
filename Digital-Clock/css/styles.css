@@ -44,26 +44,3 @@ body {
     background-color:rgb(253, 115, 80);
     border-radius: 10%;
 }
-
-.footer {
-    background: #303036;
-    color: #d3d3d3;
-    height: 50px;
-    margin-top: 50px;
-}
-.footer .footer-bottom {
-    background: #303036;
-    color: #f3f3f3;
-    height: 50px;
-    width:100%;
-    text-align: center;
-    bottom: 0px;
-    left: 0px;
-    padding-top: 15px;
-}
-.footer .footer-bottom a{
-    color: rgb(80, 227, 253);
-}
-footer {
-    max-width: 1200px;
-}
