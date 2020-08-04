@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(230, 255, 255);
+}
+
+.col-2 {
+    max-width: 150px;
+}
+.col-4 {
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+    width: 275px;
+    height: 275px;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 20px;
+}
+.time, .labels {
+    padding:10px;
+}
+.labels {
+    font-size: 30px;
+    border-top: 1px solid;
+}
+.col {
+    font-size: 120px;
+}
+#hour-tile {
+    background-color:rgb(80, 227, 253);
+    border-radius: 10%;
+}
+#minute-tile {
+    background-color:rgb(253, 221, 80);
+    border-radius: 10%;
+}
+#second-tile {
+    background-color:rgb(94, 253, 80);
+    border-radius: 10%;
+}
+#ampm-tile {
+    background-color:rgb(253, 115, 80);
+    border-radius: 10%;
+}
+
+.footer {
+    background: #303036;
+    color: #d3d3d3;
+    height: 50px;
+    margin-top: 50px;
+}
+.footer .footer-bottom {
+    background: #303036;
+    color: #f3f3f3;
+    height: 50px;
+    width:100%;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 15px;
+}
+.footer .footer-bottom a{
+    color: rgb(80, 227, 253);
+}
+footer {
+    max-width: 1200px;
+}
